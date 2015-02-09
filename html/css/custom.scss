@@ -169,7 +169,7 @@ NAVBAR
     background-color: #222;
 }
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Kaushan Script", Helvetica,Arial,cursive;
     color: #fff;
 }
 .navbar-default .navbar-brand:hover,
@@ -193,7 +193,7 @@ NAVBAR
     background-color: #16a085;
 }
 .navbar-default .nav li a {
-    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
     font-weight: 200;
     letter-spacing: 1px;
@@ -263,7 +263,7 @@ header .intro-text {
 }
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans" ,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -381,8 +381,8 @@ WORK
     width: 100%;
 }
 .screenshots figure img {
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
@@ -480,7 +480,7 @@ footer {
 footer .fa {
     border-radius: 50%;
     border: 2px solid #7f8c8d;
-    color: ##16a085;
+    color: #16a085;
     padding: 8px;
     width: 48px;
 }
@@ -516,7 +516,7 @@ MODAL
 }
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
