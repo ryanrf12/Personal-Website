@@ -166,7 +166,7 @@ NAVBAR
 =================================*/
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: transparent;
 }
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script", Helvetica,Arial,cursive;
@@ -214,11 +214,11 @@ NAVBAR
     color: #fff;
     background-color: #1abc9c;
 }
-@media(min-width:768px) {
+@media(min-width: 768px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
+        background-color:  transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -244,22 +244,19 @@ NAVBAR
 /* ================================
 HEADER
 =================================*/
-header {
-    height: 100%;
-    text-align: center;
+header { 
+    background: url(../images/steam.jpg) 50% 0 no-repeat fixed; 
+    height: 100%;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 0px 0px;
     color: #fff;
-    background-attachment: scroll;
-    background-image: url(../images/steam.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 180px;
     padding-bottom: 100px;
+    text-align: center;
 }
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
@@ -279,14 +276,23 @@ header .intro-text .intro-heading {
     height: 100%;
     background-color: rgba(26, 188, 156, .52);
 }
-@media(min-width:768px) {
+@media(min-width:780px) {
+    header { 
+    background: url(../images/steam.jpg) 50% 0 no-repeat fixed; 
+    height: 100%;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 0px 0px;
+    color: #fff;
+    }
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 200px;
         padding-bottom: 300px;
     }
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
         font-style: italic;
         line-height: 40px;
@@ -360,11 +366,17 @@ SKILL
     fill: #1abc9c;
     stroke: #1abc9c;
 }
+
+#bigTriangleShadow3 {
+    position: absolute;
+    top: -1px;
+}
+
 /* ================================
 WORK
 =================================*/
 .screenshots {
-    padding: 0;
+    padding: 100px 0;
     background-color: #f7f7f7;
 }
 #screenshot-container, #screenshot-container .row {
@@ -448,7 +460,7 @@ WORK
 CONTACT
 =================================*/
 #contact { 
-    background: url(../images/river.jpg) 50% 0 no-repeat fixed; 
+    background: url(../images/river.jpg) 50% 0 no-repeat; 
     height: auto;  
     margin: 0 auto; 
     width: 100%; 
@@ -464,8 +476,20 @@ CONTACT
 }
 #overlay-contact {
     background-color: rgba(26, 188, 156, .72);
-    padding: 150px 0px;
+    padding: 250px 0px;
 }
+
+@media(min-width:780px) {
+    #contact { 
+        background: url(../images/river.jpg) 50% 0 no-repeat fixed; 
+        height: auto;  
+        margin: 0 auto; 
+        width: 100%; 
+        position: relative; 
+        padding: 0px 0px;
+        color: #fff;
+    }
+    }
 /* ================================
 FOOTER
 =================================*/
@@ -493,6 +517,46 @@ footer .fa:hover {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.4);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
 }
 /* ================================
 MODAL
@@ -562,3 +626,11 @@ MODAL
     display: none;
     opacity: 0;
 }
+
+
+
+
+
+
+
+

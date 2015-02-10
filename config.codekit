@@ -2,6 +2,15 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18493",
 "files": {
+	"\/html\/css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/html\/css\/custom.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -513,6 +522,17 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/html\/images\/brand.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3271,
+		"inputAbbreviatedPath": "\/html\/images\/brand.png",
+		"outputAbbreviatedPath": "\/html\/images\/brand.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/html\/images\/portfolio\/create-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -748,6 +768,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/html\/js\/npm.js",
 		"outputAbbreviatedPath": "\/html\/js\/min\/npm-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/html\/js\/wow.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/html\/js\/wow.js",
+		"outputAbbreviatedPath": "\/html\/js\/min\/wow-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

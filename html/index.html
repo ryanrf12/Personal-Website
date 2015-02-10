@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link href="css/custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
     <!-- Custom Fonts -->
     <link href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,700' rel='stylesheet' type='text/css'>
@@ -19,46 +20,54 @@
     <link rel="shortcut icon" href="/images/ryfavicon.ico" type="image/x-icon" />
   </head>
   <body id="page-top" class="index">
-    <!--- NAV SECTION  -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">RF</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#skills">skills</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#screenshots">work</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
+
+
+
+
+
+
     <!--- HEADER SECTION  -->
     <header id="intro">
       <div id="overlay-header">
+        <!--- NAV SECTION  -->
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand page-scroll" href="#page-top">
+
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#skills">skills</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#screenshots">work</a>
+                        </li>
+                        <li>
+                            <a class="page-scroll" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
         <div class="container">
             <div id="animate" class="intro-text">
                 
@@ -70,18 +79,19 @@
             </div>
         </div>
     </header>
+
     <!--- ABOUT SECTION  -->
     <section id="about" class="bg-light-gray">
         <div id="animate1" class="container">
             <div class="row">
                 <div class="col-sm-4">
-                    <div class="about-self">
+                    <div class="about-self wow fadeInLeft" data-wow-delay=".1s">
                         <img src="images/ryfe.jpg" class="img-responsive img-circle" alt="">
                     </div>
                 </div>
                 <div id="about-text" class="col-sm-8 text-center">
-                    <h2 class="section-heading">About Me</h2>
-                    <p class="large text-muted">Hi! I'm Ryan, a self-taught web developer with a passion for code, design, and problem solving. When I graduated from San Francisco State University with a degree in business information systems, I decided I wasn't done learning. After completing multiple online courses and diving head first into building my own website, I am ready to gain real life experience in web development/design.<br><br>
+                    <h2 class="section-heading wow fadeInLeft" data-wow-delay=".2s">About Me</h2>
+                    <p class="large text-muted wow fadeInLeft" data-wow-delay=".3s">Hi! I'm Ryan, a self-taught web developer with a passion for code, design, and problem solving. When I graduated from San Francisco State University with a degree in business information systems, I decided I wasn't done learning. After completing multiple online courses and diving head first into building my own website, I am ready to gain real life experience in web development/design.<br><br>
                     Check out some of my work below, and more on <a href="http://codepen.io/ryanrf12/" target="_blank">Codepen.io</a>.</p>
 
                 </div>
@@ -98,12 +108,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">skills
-                    </h2>
+                    <h2 class="section-heading wow fadeIn" data-wow-delay=".1s">skills</h2>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row text-center wow fadeInLeft" data-wow-delay=".3s">
                 <div class="col-sm-3 col-xs-6">
                     <span class="fa-stack fa-5x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
@@ -134,7 +143,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-lg-12 text-center wow fadeIn" data-wow-delay=".4s">
                     <p class="large text-muted"><br>Other Skills: Bootstrap, Wordpress, Media Queries, Command Line, JSON, Ajax, APIs, DOM, Git<br><br>Currently Learning: Sass, GSAP, AngularJS, Node.js</h3>
                 </div>
             </div>
@@ -149,7 +158,7 @@
         <div id="screenshot-container" class="container">
             
             <div class="row"> 
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay=".5s">
                         <figure>
                             <img src="images/portfolio/sugi-logo2.png" alt="Screenshot 01">
                             <figcaption>
@@ -162,7 +171,7 @@
                             </figcaption>
                         </figure>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay=".6s">
                         <figure>
                             <img src="images/portfolio/create-logo.png" alt="Screenshot 01">
                             <figcaption>
@@ -175,7 +184,7 @@
                             </figcaption>
                         </figure>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay=".7s">
                         <figure>
                             <img src="images/portfolio/hotorcold.png" alt="Screenshot 01">
                             <figcaption>
@@ -188,7 +197,7 @@
                             </figcaption>
                         </figure>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay=".8s">
                         <figure>
                             <img src="images/portfolio/to-do-list.png" alt="Screenshot 01">
                             <figcaption>
@@ -201,7 +210,7 @@
                             </figcaption>
                         </figure>
                  </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay=".9s">
                         <figure>
                             <img src="images/portfolio/rf1.png" alt="Screenshot 01">
                             <figcaption>
@@ -214,7 +223,7 @@
                             </figcaption>
                         </figure>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay=".9s">
                         <figure>
                             <img src="images/portfoliotemp.png" alt="Screenshot 01">
                             <figcaption>
@@ -227,7 +236,7 @@
                             </figcaption>
                         </figure>
                 </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6 wow bounceIn" data-wow-delay="1s">
                         <figure>
                             <img src="images/portfoliotemp.png" alt="Screenshot 01">
                             <figcaption>
@@ -240,7 +249,7 @@
                             </figcaption>
                         </figure>
                  </div>
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-3 col-xs-6w wow bounceIn" data-wow-delay="1.1s">
                         <figure>
                             <img src="images/portfoliotemp.png" alt="Screenshot 01">
                             <figcaption>
@@ -256,12 +265,18 @@
             </div>
         </div>
     </section>
+
     <!--- CONTACT SECTION  -->
-    <section id="contact" data-speed="35" data-type="background">
+    <section id="contact" data-speed="30" data-type="background">  
       <div id="overlay-contact">
+    <svg id="bigTriangleShadow3" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path id="trianglePath1" d="M0 0 L50 100 L100 0 Z" />
+        <path id="trianglePath2" d="M50 100 L100 40 L100 0 Z" />
+    </svg>
         <div class="container">
           <div class="row">
-            <div class="col-lg-12 text-center" id="contact-content">
+            <div class="col-lg-12 text-center wow fadeInLeft" data-wow-delay=".1s" id="contact-content">
+
               <h2 class="section-heading">Contact</h2>
               <p class="large">I am currently seeking exciting opportunities in front end web development/design..<br> Please feel free to reach out to me at ryanrf12@gmail.com.</p>
               <a id="mailbutton" href="mailto:ryanrf12@gmail.com"><i class="fa fa-envelope fa-3x fa-border"></i></a>    
@@ -487,11 +502,14 @@
             </div>
         </div>
     </div>
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.0/TweenMax.min.js"></script>
     <script src="js/min/jquery.easing-min.js"></script>
-    <script src="js/min/jquery.scrollmagic.min-min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+     new WOW().init();
+    </script>
     <script src="js/min/main-min.js"></script>
   </body>
 </html>
