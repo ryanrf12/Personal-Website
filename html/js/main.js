@@ -1,12 +1,11 @@
 $(document).ready(function($) {
-
   // jQuery for page scrolling feature - requires jQuery Easing plugin
   $(function() {
       $('a.page-scroll').bind('click', function(event) {
           var $anchor = $(this);
           $('html, body').stop().animate({
               scrollTop: $($anchor.attr('href')).offset().top
-          }, 500, 'easeInOutExpo');
+          }, 1000, 'easeInOutExpo');
           event.preventDefault();
       });
   });
@@ -27,7 +26,7 @@ $(document).ready(function($) {
     }
   });
   $('#return-to-top').click(function() {      // When arrow is clicked
-    $('body,html').animate({
+    $('#page-top').animate({
         scrollTop : 0                       // Scroll to top of body
     }, 500);
   });
@@ -36,7 +35,7 @@ $(document).ready(function($) {
   if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   }else {
     $window = $(window);
-    $('section[data-type="background"]').each(function(){
+    $('section[data-type="background"], header[data-type="background"]').each(function(){
      var $scroll = $(this);                  
       $(window).scroll(function() {
                           
