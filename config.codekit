@@ -107,6 +107,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/html\/images\/portfolio\/moka1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16173,
+		"inputAbbreviatedPath": "\/html\/images\/portfolio\/moka1.png",
+		"outputAbbreviatedPath": "\/html\/images\/portfolio\/moka1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/html\/images\/portfolio\/moka1a.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62705,
+		"inputAbbreviatedPath": "\/html\/images\/portfolio\/moka1a.jpg",
+		"outputAbbreviatedPath": "\/html\/images\/portfolio\/moka1a.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/html\/images\/portfolio\/moka1a.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.02731e+06,
+		"inputAbbreviatedPath": "\/html\/images\/portfolio\/moka1a.png",
+		"outputAbbreviatedPath": "\/html\/images\/portfolio\/moka1a.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/html\/images\/portfolio\/rf1.png": {
 		"fileType": 32768,
 		"ignore": 0,
